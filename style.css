@@ -37,12 +37,14 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 7000;
+    transition: 2s;
 }
 .dream-area{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 90px;
+   
     
 }
 
@@ -75,4 +77,8 @@ section{
 footer{
     text-align: center;
     font-size: 12px;
+}
+.link-button:hover{
+    background-image: linear-gradient(-45deg, lightSalmon, tomato);
+    box-shadow: 2px 2px 7px black;
 }
